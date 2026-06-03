@@ -1,34 +1,3 @@
---[[
-╔══════════════════════════════════════════════════════════════╗
-║         KHALIJI ULTIMATE — DBD Roblox System Exploit         ║
-║    Reverse-engineered from live map scan (1169+ objects)     ║
-╚══════════════════════════════════════════════════════════════╝
-
-  Systems detected & exploited:
-  · Workspace.Map          → Antifling bypass, Pallet control
-  · Workspace.[Characters] → Health, Sound, voicemanager, spearmanager
-  · ReplicatedStorage      → Killers (BasicAttack, Weapon, Skins)
-  · StarterPlayer.Mechanics → Teleport, Tween, bonephysics, undetectable
-  · StarterGui             → KillerBlood, Perks, Darkness, FovChange
-  · StarterPlayerScripts   → MusicChase, SoundRegion, LowGraphics, forgevfx
-
-  Controls:
-    INSERT / RightShift  → Toggle GUI visibility
-    F2                   → Instant Antifling Bypass
-    F3                   → Toggle God Mode
-    F4                   → Toggle Speed Hack
-    F5                   → Toggle Fly
-    F6                   → Toggle Noclip
-    F7                   → Toggle Wallhack (Highlight All)
-    F8                   → Toggle Killer Freeze
-    F9                   → Toggle Infinite Sprint
-    F10                  → Teleport to Nearest Exit
-    DELETE               → Self-Destruct / Close
-]]
-
--- ─────────────────────────────────────────────────────────────
---  SERVICES
--- ─────────────────────────────────────────────────────────────
 local Players          = game:GetService("Players")
 local RunService       = game:GetService("RunService")
 local UserInputService = game:GetService("UserInputService")
